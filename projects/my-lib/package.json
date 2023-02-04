@@ -1,6 +1,6 @@
 {
   "name": "my-testing-lib-ng-dp-123",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "peerDependencies": {
     "@angular/common": "^15.1.0",
     "@angular/core": "^15.1.0"

@@ -1,14 +1,12 @@
-import { Injectable } from '@angular/core';
-
-import { ApiKeyService } from './services/api-key.service';
+import { Inject, Injectable } from '@angular/core';
 
 @Injectable({
   providedIn: 'root',
 })
 export class MyLibService {
-  constructor(private readonly _akService: ApiKeyService) {}
+  constructor(@Inject('API_KEY') private apiKey: string) {}
 
   sayHello(): void {
-    console.log(`Hi! your api Key is ${this._akService.getApiKey()}`);
+    console.log(`Hi! your api Key is ${this.apiKey}`);
   }
 }
