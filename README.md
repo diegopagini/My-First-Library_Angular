@@ -4,6 +4,8 @@
 
 [Angular](https://angular.io/guide/creating-libraries).
 
+### How to use an api key:
+
 ### my-lib.module.ts
 
 ```typescript
