@@ -41,7 +41,7 @@ export class MyLibService {
 
 ---
 
-## Steps to create a lib:
+## Steps to create a library:
 
 
 ### 1- ng new my-workspace --no-create-application
