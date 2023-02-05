@@ -43,15 +43,12 @@ export class MyLibService {
 
 ## Steps to create a lib:
 
-```html
-<ol>
-  <li>ng new my-workspace --no-create-application</li>
-  <li>cd my-workspace</li>
-  <li>ng generate library my-lib</li>
-  <li>ng build my-lib</li>
-  <li>cd dist/my-lib</li>
-  <li>npm publish</li>
-</ol>
-  
-```
+
+### 1- ng new my-workspace --no-create-application
+### 2- cd my-workspace
+### 3- ng generate library my-lib
+### 4- ng build my-lib
+### 5- cd dist/my-lib
+### 6- npm publish
+
 
